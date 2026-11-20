@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="JOB logo: coin split into three jobs, one active">
+<rect width="512" height="512" fill="#000"/>
+<path d="M268.58 111.55A145 145 0 0 1 387.39 317.34L317.80 281.88A67 67 0 0 0 264.49 189.54Z" fill="#E8D96A" stroke="#E8D96A" stroke-width="10" stroke-linejoin="round"/>
+<path d="M374.81 339.12A145 145 0 0 1 137.19 339.12L202.69 296.58A67 67 0 0 0 309.31 296.58Z" fill="#fff" stroke="#fff" stroke-width="10" stroke-linejoin="round"/>
+<path d="M124.61 317.34A145 145 0 0 1 243.42 111.55L247.51 189.54A67 67 0 0 0 194.20 281.88Z" fill="#fff" stroke="#fff" stroke-width="10" stroke-linejoin="round"/>
+<circle cx="256" cy="256" r="26" fill="#fff"/>
+<circle cx="256" cy="256" r="188" fill="none" stroke="#fff" stroke-width="5"/>
+<line x1="256.00" y1="90.00" x2="256.00" y2="74.00" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="339.00" y1="112.24" x2="345.00" y2="101.85" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+<line x1="399.76" y1="173.00" x2="410.15" y2="167.00" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+<line x1="422.00" y1="256.00" x2="438.00" y2="256.00" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="399.76" y1="339.00" x2="410.15" y2="345.00" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+<line x1="339.00" y1="399.76" x2="345.00" y2="410.15" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+<line x1="256.00" y1="422.00" x2="256.00" y2="438.00" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="173.00" y1="399.76" x2="167.00" y2="410.15" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+<line x1="112.24" y1="339.00" x2="101.85" y2="345.00" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+<line x1="90.00" y1="256.00" x2="74.00" y2="256.00" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="112.24" y1="173.00" x2="101.85" y2="167.00" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+<line x1="173.00" y1="112.24" x2="167.00" y2="101.85" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+</svg>
