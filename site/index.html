@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JOB — give your coin one job</title>
+  <meta name="description" content="">
+  <meta property="og:title" content="">
+  <meta property="og:description" content="">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#000000">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=Archivo:wght@400;500;600;700&family=Doto:wght@600;800&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fx.css">
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#app" data-copy="nav.skip">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="logo" href="#/" aria-label="JOB">
+        <svg viewBox="16 16 480 480" width="30" height="30" aria-hidden="true"><path d="M279.9 29.3A228 228 0 0 1 464.3 348.7L341.9 289.0A92 92 0 0 0 270.4 165.1Z" fill="#E8D96A" stroke="#E8D96A" stroke-width="16" stroke-linejoin="round"/><path d="M440.4 390.0A228 228 0 0 1 71.6 390.0L184.5 313.9A92 92 0 0 0 327.5 313.9Z" fill="#fff" stroke="#fff" stroke-width="16" stroke-linejoin="round"/><path d="M47.7 348.7A228 228 0 0 1 232.1 29.3L241.6 165.1A92 92 0 0 0 170.1 289.0Z" fill="#fff" stroke="#fff" stroke-width="16" stroke-linejoin="round"/><circle cx="256" cy="256" r="40" fill="#fff"/></svg>
+        <span>JOB</span>
+      </a>
+      <button id="nav-toggle" class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav" data-copy="nav.menu">Menu</button>
+      <nav id="nav" class="nav" aria-label="Main">
+        <a href="#/" data-nav="home" data-copy="nav.home">Home</a>
+        <a href="#/launch" data-nav="launch" data-copy="nav.launch">Launch</a>
+        <a href="#/coins" data-nav="coins" data-copy="nav.coins">Coins</a>
+        <a href="#/log" data-nav="log" data-copy="nav.log">Log</a>
+        <a href="#how" data-nav="how" data-copy="nav.how">How it works</a>
+        <a href="#/faq" data-nav="faq" data-copy="nav.faq">FAQ</a>
+        <a id="nav-x" data-requires="X_URL" target="_blank" rel="noopener noreferrer" data-copy="nav.twitter">TWITTER</a>
+      </nav>
+      <div class="header-actions">
+        <button id="ca-chip" class="chip mono" type="button"></button>
+        <a class="btn btn-small" href="#/launch" data-copy="nav.cta">Launch a coin</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="app" tabindex="-1" class="wrap"></main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p data-copy="footer.line">JOB — one coin, one job.</p>
+      <ul class="footer-links">
+        <li data-requires="REPO_URL"><a id="link-code" target="_blank" rel="noopener noreferrer" data-copy="footer.links.code">Code</a></li>
+        <li><a href="#/log" data-copy="footer.links.log">Log</a></li>
+        <li data-requires="X_URL"><a id="link-x" target="_blank" rel="noopener noreferrer" data-copy="footer.links.x">X</a></li>
+        <li data-requires="TG_URL"><a id="link-tg" target="_blank" rel="noopener noreferrer" data-copy="footer.links.telegram">Telegram</a></li>
+      </ul>
+      <p class="risk" data-copy="footer.risk"></p>
+    </div>
+    <div class="wordmark" aria-hidden="true">JOB</div>
+  </footer>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <noscript><p class="wrap">JOB needs JavaScript to read the public log.</p></noscript>
+</body>
+</html>

@@ -1,0 +1,83 @@
+{
+  "note": "Recorded balance history for one payroll round. Expected values worked out by hand and with Python hashlib, independent of the JS code.",
+  "input": {
+    "points": [
+      {
+        "slot": 299999500,
+        "account": "CurveVault111111111111111111111111111111111",
+        "owner": "FhVo3mqL8PW5pH5U2CN4XE33DokiyZnUwuGpH2hmHLuM",
+        "amount": "800000000000000"
+      },
+      {
+        "slot": 299999600,
+        "account": "AliceAta11111111111111111111111111111111111",
+        "owner": "A1iceWa11et111111111111111111111111111111111",
+        "amount": "100000000000000"
+      },
+      {
+        "slot": 299999700,
+        "account": "BobAta1111111111111111111111111111111111111",
+        "owner": "BobWa11et1111111111111111111111111111111111",
+        "amount": "60000000000000"
+      },
+      {
+        "slot": 299999800,
+        "account": "CarolAta11111111111111111111111111111111111",
+        "owner": "Caro1Wa11et11111111111111111111111111111111",
+        "amount": "39950000000000"
+      },
+      {
+        "slot": 299999900,
+        "account": "DustAta111111111111111111111111111111111111",
+        "owner": "DustWa11et111111111111111111111111111111111",
+        "amount": "50000000000"
+      },
+      {
+        "slot": 300008566,
+        "account": "BobAta1111111111111111111111111111111111111",
+        "owner": "BobWa11et1111111111111111111111111111111111",
+        "amount": "0"
+      },
+      {
+        "slot": 300008567,
+        "account": "DaveAta11111111111111111111111111111111111",
+        "owner": "DaveWa11et111111111111111111111111111111111",
+        "amount": "60000000000000"
+      },
+      {
+        "slot": 300008565,
+        "account": "CarolAta11111111111111111111111111111111111",
+        "owner": "Caro1Wa11et11111111111111111111111111111111",
+        "amount": "40000000000000"
+      }
+    ],
+    "blockhash": "5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d",
+    "mint": "7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU",
+    "roundId": 491234,
+    "startSlot": 300000000,
+    "endSlot": 300008999,
+    "potLamports": "1500000000",
+    "minHoldBps": 1,
+    "exclude": [
+      "FhVo3mqL8PW5pH5U2CN4XE33DokiyZnUwuGpH2hmHLuM"
+    ]
+  },
+  "expected": {
+    "chosenSlot": 300008565,
+    "payouts": [
+      {
+        "wallet": "A1iceWa11et111111111111111111111111111111111",
+        "lamports": "750000000"
+      },
+      {
+        "wallet": "BobWa11et1111111111111111111111111111111111",
+        "lamports": "450000000"
+      },
+      {
+        "wallet": "Caro1Wa11et11111111111111111111111111111111",
+        "lamports": "300000000"
+      }
+    ],
+    "carry": "0"
+  }
+}

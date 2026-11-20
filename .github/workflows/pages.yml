@@ -1,0 +1,28 @@
+# Builds dist/ and pushes it to the gh-pages branch. keep_files preserves data/log.json and meta/,
+# which the worker publishes to the same branch.
+name: Deploy site
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: node --test tests/
+      - run: npm run check:leftovers
+      - run: npm run build
+        env:
+          SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
+      - name: Keep the worker's live log
+        run: if curl -sf "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/data/log.json" > /dev/null; then rm dist/data/log.json; fi
+      - uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          keep_files: true

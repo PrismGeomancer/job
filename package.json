@@ -1,0 +1,14 @@
+{
+  "name": "job-launchpad",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "JOB: a Solana launchpad where every coin has exactly one job.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/serve.mjs",
+    "test": "node --test tests/ && npm --prefix server test",
+    "check:leftovers": "node scripts/leftovers.mjs",
+    "preview": "node scripts/serve.mjs --src --preview"
+  }
+}

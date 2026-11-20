@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="JOB logo option 1: punched coin">
+  <rect width="512" height="512" fill="#000"/>
+  <defs><clipPath id="c"><circle cx="256" cy="256" r="160"/></clipPath></defs>
+  <circle cx="256" cy="256" r="160" fill="#fff"/>
+  <circle cx="338" cy="174" r="20" fill="#E8D96A"/>
+  <rect x="96" y="288" width="320" height="44" fill="#000" clip-path="url(#c)"/>
+</svg>
